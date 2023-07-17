@@ -1,0 +1,341 @@
+name: energym
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # Effective Dart: Style Guide.
+  # https://pub.dev/packages/lint
+  # Compulsory
+  lint: ^1.8.2
+
+  # for bloc pattern
+  # https://pub.dev/packages/rxdart
+  # Optional
+  rxdart: ^0.26.0
+
+  # for localozation
+  # https://pub.dev/packages/easy_localization
+  # Compulsory
+  easy_localization: ^3.0.0
+
+  # Service locator
+  # https://pub.dev/packages/get_it
+  # Compulsory
+  # at some point you will need to put your app's logic in classes that are separated from your Widgets.
+  # Keeping your widgets from having direct dependencies makes your code better organized and easier to test and maintain.
+  # But now you need a way to access these objects from your UI code.
+  get_it: ^7.2.0
+
+  # Shared Prefrence <=> User Default
+  # https://pub.dev/packages/shared_preferences
+  # Compulsory
+  shared_preferences: ^2.0.13
+
+  # Lottie for animation
+  # https://pub.dev/packages/lottie
+  # Optional
+  lottie: ^1.2.2
+
+  # For check internet connectivity
+  # https://pub.dev/packages/connectivity
+  # Optional
+  connectivity: ^3.0.3
+
+  # For encrypt / decrypt
+  # https://pub.dev/packages/encrypt
+  # Optional
+  encrypt: ^5.0.1
+
+  # For device info
+  # https://pub.dev/packages/device_info
+  # Optional
+  device_info: ^2.0.0
+
+  # For Screen Design
+  # https://pub.dev/packages/flutter_screenutil
+  # Optional
+  flutter_screenutil: ^5.3.1
+
+  # For SVG Images
+  # https://pub.dev/packages/flutter_svg
+  # Optional
+  flutter_svg: ^0.23.0+1
+
+  # For Shimmer effect
+  # https://pub.dev/packages/shimmer
+  # Optional
+  shimmer: ^2.0.0
+
+  # For flutter network calls
+  # https://pub.dev/packages/dio/install
+  # Optional if app not using API Calls
+  dio: ^4.0.4
+
+  # https://pub.dev/packages/provider
+  provider: ^6.0.2
+
+  # https://pub.dev/packages/package_info
+  package_info: 2.0.0 #0.4.3+2
+
+  # For auto resize tex
+  # https://pub.dev/packages/auto_size_text
+  auto_size_text: ^3.0.0
+
+  #For text animation
+  #https://pub.dev/packages/animated_text_kit
+  animated_text_kit: ^4.2.1
+
+  # For show skeleton till get data using api
+  # https://pub.dev/packages/skeleton_text
+  # Optional
+  skeleton_text: ^3.0.0
+
+  skeleton_animation: ^0.1.4
+
+  # For show loader
+  # https://pub.dev/packages/auto_size_text
+  flutter_spinkit: ^5.1.0
+
+  # For load image from url
+  #https://pub.dev/packages/cached_network_image
+  cached_network_image: ^3.2.0
+
+  #https://pub.dev/packages/validators
+  validators: ^3.0.0
+
+  #https://pub.dev/packages/flutter_sim_country_code
+  flutter_sim_country_code: ^0.1.2
+
+  #https://pub.dev/packages/pin_code_fields
+  pin_code_fields: ^7.3.0
+
+  #https://pub.dev/packages/sms_autofill
+  sms_autofill: ^2.2.0
+
+  #https://pub.dev/packages/image_cropper
+  image_cropper: ^1.5.0
+
+  #https://pub.dev/packages/image_picker
+  image_picker: ^0.8.4+8
+
+  #https://pub.dev/packages/permission_handler
+  permission_handler: ^10.0.0
+
+  #https://pub.dev/packages/geocoder
+  # geocoder: ^0.2.1
+  geocode: ^1.0.1
+
+  #https://pub.dev/packages/geolocator
+  geolocator: ^8.2.0
+
+  #https://pub.dev/packages/firebase_core
+  firebase_core: ^1.13.1
+
+  #https://pub.dev/packages/cloud_firestore
+  cloud_firestore: ^3.1.10
+
+  #https://pub.dev/packages/flutter_html
+  flutter_html: ^2.2.1
+
+  # https://pub.dev/packages/intl
+  intl: ^0.17.0
+
+  #https://pub.dev/packages/syncfusion_flutter_sliders
+  syncfusion_flutter_sliders: ^20.3.61
+
+  #https://pub.dev/packages/path_provider
+  path_provider: ^2.0.9
+
+  #https://pub.dev/packages/firebase_auth
+  firebase_auth: ^3.3.9
+
+  #https://pub.dev/packages/firebase_storage
+  # Store user profile and default place holder
+  firebase_storage: ^10.2.9
+
+  #https://pub.dev/packages/syncfusion_flutter_gauges
+  # Show circule progress bar
+
+
+  #https://pub.dev/packages/contacts_service
+  contacts_service: ^0.6.3
+
+  #https://pub.dev/packages/transparent_image
+  transparent_image: ^2.0.0
+
+  #https://pub.dev/packages/local_auth
+  # perform local, on-device authentication of the user.
+  # On supported devices, this includes authentication with biometrics such as fingerprint or facial recognition.
+  local_auth: ^1.1.11
+
+  #https://pub.dev/packages/firebase_messaging
+  firebase_messaging: ^11.2.8
+
+  #https://pub.dev/packages/flutter_local_notifications
+  flutter_local_notifications: ^9.4.0
+
+  #https://pub.dev/packages/http
+  http: ^0.13.4
+
+  #https://pub.dev/packages/dart_jsonwebtoken
+  dart_jsonwebtoken: ^2.4.1
+
+  #For launch url in browser
+  # https://pub.dev/packages/url_launcher
+  url_launcher: ^6.0.20
+
+  # https://pub.dev/packages/share
+  share: ^2.0.4
+
+  # https://pub.dev/packages/health
+  health: ^3.4.3
+  # https://pub.dev/packages/firebase_dynamic_links
+  firebase_dynamic_links: ^4.0.8
+  # https://pub.dev/packages/flutter_staggered_animations
+  flutter_staggered_animations: ^1.0.0
+  # https://pub.dev/packages/flutter_inappwebview
+  flutter_inappwebview: ^5.3.2
+  # https://pub.dev/packages/syncfusion_flutter_charts
+  #syncfusion_flutter_charts: ^19.2.46
+
+  # https://pub.dev/packages/flutter_email_sender/
+  flutter_email_sender: ^5.0.0
+
+  # https://pub.dev/packages/flutter_blue
+  # for connect BLE esp32
+  flutter_blue: ^0.8.0
+
+  # https://pub.dev/packages/qr_code_scanner/
+  qr_code_scanner: 1.0.0
+
+  # https://pub.dev/packages/charts_flutter
+  charts_flutter: ^0.12.0
+
+  # https://pub.dev/packages/flutter_neumorphic/
+  flutter_neumorphic: ^3.2.0
+
+  # https://pub.dev/packages/wheel_slider/
+  wheel_slider: ^1.0.0
+
+  # https://pub.dev/packages/text_scroll/
+  text_scroll: ^0.1.0
+
+  # https://pub.dev/packages/flutter_keychain/
+  flutter_keychain: ^2.2.1
+
+  # https://pub.dev/packages/firebase_crashlytics/
+  firebase_crashlytics: ^2.5.2
+
+  #  For Audio
+  on_audio_query: ^2.6.1
+  just_audio: ^0.9.28
+  just_audio_background: ^0.0.1-beta.7
+  flutter_media_metadata: ^1.0.0+1
+  syncfusion_flutter_gauges: ^20.3.61
+
+dependency_overrides:
+  image_picker_android: 0.8.4+13
+  firebase_core_platform_interface: 4.5.1
+#  flutter_inappwebview:
+#    git: https://github.com/CodeEagle/flutter_inappwebview
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/lottie/
+    - assets/images/
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/images/gif/
+    - resources/langs/
+    - assets/flags/
+    - assets/raw/
+    - assets/images/level/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Antonio
+      fonts:
+        - asset: assets/fonts/Antonio-Regular.ttf
+          weight: 400
+    - family: Calibri
+      fonts:
+        - asset: assets/fonts/Calibri-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Calibri-Regular.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: Abel
+      fonts:
+        - asset: assets/fonts/Abel-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

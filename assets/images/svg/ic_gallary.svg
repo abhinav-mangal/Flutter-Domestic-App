@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🎨 Icon Fill</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feed-Header" transform="translate(-116.000000, -18.000000)" fill="#FFFFFF">
+            <g id="Card/Card-1.2-Copy" transform="translate(87.666667, 0.000000)">
+                <g id="Icons/Filled/verified" transform="translate(25.412371, 15.000000)">
+                    <path d="M26.25,23.75 L26.25,6.25 C26.25,4.875 25.125,3.75 23.75,3.75 L6.25,3.75 C4.875,3.75 3.75,4.875 3.75,6.25 L3.75,23.75 C3.75,25.125 4.875,26.25 6.25,26.25 L23.75,26.25 C25.125,26.25 26.25,25.125 26.25,23.75 Z M10.625,16.875 L13.75,20.6375 L18.125,15 L23.75,22.5 L6.25,22.5 L10.625,16.875 Z" id="🎨-Icon-Fill"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

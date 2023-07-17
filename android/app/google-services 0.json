@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "72481058048",
+    "project_id": "gym-app-9ce94",
+    "storage_bucket": "gym-app-9ce94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72481058048:android:83d1cb8b4abf06349a17e5",
+        "android_client_info": {
+          "package_name": "com.energym.energym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72481058048-1lf37loie82descm503phifdkq4tngq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqddEZrF5ixk4rq0NLTaAMY1-h0gIVP4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72481058048-1lf37loie82descm503phifdkq4tngq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

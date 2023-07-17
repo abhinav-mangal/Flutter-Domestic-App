@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "753858927962",
+    "firebase_url": "https://energym-9f022-default-rtdb.firebaseio.com",
+    "project_id": "energym-9f022",
+    "storage_bucket": "energym-9f022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753858927962:android:013b81539a5d935d34e763",
+        "android_client_info": {
+          "package_name": "com.energym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753858927962-nvvcmenhej4h5531ig818orettbsep1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.energym",
+            "certificate_hash": "b2d6fc4157a3e686acdffe48e6e9f5761d43e0ab"
+          }
+        },
+        {
+          "client_id": "753858927962-dhobq6lpg15mudnrp0ne8412ghsg53i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdF7JF47NdfJq3lWrohOun9eXWYlqsgLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753858927962-dhobq6lpg15mudnrp0ne8412ghsg53i1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753858927962-8epat81mkscf1d08k3j2hiur32ot3b8c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.energym"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753858927962:android:ee6ef085e683025934e763",
+        "android_client_info": {
+          "package_name": "com.energym.gym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753858927962-m5q28oer5fesh0439d27dmp3gpfo8ef5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.energym.gym",
+            "certificate_hash": "b2d6fc4157a3e686acdffe48e6e9f5761d43e0ab"
+          }
+        },
+        {
+          "client_id": "753858927962-sbon9fu6jm2po3nvorecpumdkftpqtjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.energym.gym",
+            "certificate_hash": "e237518d0a3e9be59dfcd9301428ee83af4b078c"
+          }
+        },
+        {
+          "client_id": "753858927962-dhobq6lpg15mudnrp0ne8412ghsg53i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdF7JF47NdfJq3lWrohOun9eXWYlqsgLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753858927962-dhobq6lpg15mudnrp0ne8412ghsg53i1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753858927962-8epat81mkscf1d08k3j2hiur32ot3b8c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.energym"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
